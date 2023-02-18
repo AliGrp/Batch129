@@ -13,14 +13,11 @@ public class Depo {
 Ruuner ruuner =new Ruuner();
     public static void urun() {
 
-
         urunler.put(1000, new UrunBilgi("Seker", "Hekimoglu", 3, "Cuval", "null"));
         urunler.put(1001, new UrunBilgi("Tuz", "Hekimoglu", 0, "Cuval", "null"));
         urunler.put(1002, new UrunBilgi("Baharat", "Hekimoglu", 8, "Cuval", "null"));
         urunler.put(1003, new UrunBilgi("Gofret", "Hekim", 16, "Kutu", "null"));
         urunler.put(1004, new UrunBilgi("Biskuvi", "Hekim", 7, "Kutu", "null"));
-
-
         System.out.println("\t                     *** Urunlerimiz ***                    \n" +
                 "ID    ISMI       URETICISI   MIKTARI     BIRIMI     RAF ");
 //        for (Map.Entry<Integer, UrunBilgi> each : setUrunler) {
