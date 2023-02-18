@@ -10,6 +10,7 @@ char firstChar = s.charAt(1);
         char secondChar = s.charAt(5);
         System.out.println("ilk harf ve son harf= " + firstChar+secondChar);
         String sSub1 = s.substring(0,4);//İlk index 0 sıfırfır son index bir sonraki karakterinki yazılır.
+
         // Bizden istenen ilk 3 karakterdi fakat 4 indexininde yazdık.
         System.out.println(sSub1);
 

@@ -107,10 +107,16 @@ public class StringBuilder01 {
         System.out.println(s7);//xy
 
 
-        
 
 
 
+        StringBuilder sb9 = new StringBuilder("Learn");
+
+        System.out.println("Before trim: " + sb9.capacity());
+
+        sb9.trimToSize();
+
+        System.out.println("After trim: " + sb9.capacity());
 
 
 

@@ -1,0 +1,20 @@
+package advancepractise.advancepractiseday11.interface_maashesaplama;
+
+public class InterfaceRunner {
+    /*
+    Net maaş hesaplayan bir kod yazınız.(Interface kullanınız)
+    Maaş kriterleri: Çalışanın toplam çalışma yılına göre her yıl için brüt maaşı 100 dolar  artır.
+                     Çalışanın aylık çalışma saatine göre 160 saat üstü  her saat için brüt maaşı 10 dolar artır.
+                     10 yıl ve üstü çalışma yılı bulunan çalışanların maaşlarından %30, diğerlerinden %20 vergi kesintisi yap.
+     */
+    public static void main(String[] args) {
+        MaasHesapla maasHesaplaAli = new MaasHesapla();
+        System.out.println("maasHesaplaAli.netMaas(10000,11,160) = " + maasHesaplaAli.netMaas(10000, 11, 160)+"$");
+
+        MaasHesapla maasHesaplaVeli = new MaasHesapla();
+        System.out.println("maasHesaplaVeli.netMaas(10000,1,180) = " + maasHesaplaVeli.netMaas(10000, 1, 180)+"$");
+
+        MaasHesapla maasHesaplaAyse = new MaasHesapla();
+        System.out.println("maasHesaplaAyse.netMaas(10000,8,110) = " + maasHesaplaAyse.netMaas(10000, 16, 110)+"$");
+    }
+}

@@ -8,7 +8,8 @@ public class MethodCreated02 {
 
     }
     private static int thirdMultiplyFourthPlenty (int a, int b, int c, int d) {
-    return a*b*c/d;
+
+        return a*b*c/d;
     }
 }
 

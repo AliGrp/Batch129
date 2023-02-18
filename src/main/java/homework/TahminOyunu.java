@@ -37,7 +37,7 @@ public class TahminOyunu {
             }
 
             if (sayac == 0) {
-                System.out.println("Hakkiniz bitti");
+                System.out.println("Hakkiniz bitti Dogru Sayi :"+bet);
                 break;
             }
 
