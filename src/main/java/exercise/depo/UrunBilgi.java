@@ -10,12 +10,10 @@ public class UrunBilgi {
     private String birim;
     private String raf;
 
-//    public UrunBilgi() {
-//
-//    }
+    public UrunBilgi(String s) {
+    }
 
-    public UrunBilgi( String urunIsmi, String uretici, int miktar, String birim, String raf) {
-
+    public UrunBilgi(String urunIsmi, String uretici, int miktar, String birim, String raf) {
         this.urunIsmi = urunIsmi;
         this.uretici = uretici;
         this.miktar = miktar;
@@ -23,6 +21,9 @@ public class UrunBilgi {
         this.raf = raf;
     }
 
+    public UrunBilgi() {
+
+    }
 
     public String getUrunIsmi() {
         return urunIsmi;
@@ -67,11 +68,13 @@ public class UrunBilgi {
     @Override
     public String toString() {
         return "UrunBilgi{" +
-                ", urunIsmi='" + urunIsmi + '\'' +
+                "urunIsmi='" + urunIsmi + '\'' +
                 ", uretici='" + uretici + '\'' +
                 ", miktar=" + miktar +
                 ", birim='" + birim + '\'' +
                 ", raf='" + raf + '\'' +
                 '}';
     }
+
+
 }
