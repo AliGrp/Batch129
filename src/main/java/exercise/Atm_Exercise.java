@@ -9,7 +9,9 @@ public class Atm_Exercise {
         -Para çekmek için --2
         -Farkli hesaba para yatırmak için --3
                  */
-        public static void main(String[] args) {
+
+
+    public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
 
             String islemSecenekleri= "Bakiye Goruntuleme ==> 1 \n " +
